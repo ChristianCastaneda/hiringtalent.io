@@ -2,3 +2,50 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  background-image: url(../assets/img/rh.png); }
+  header .caja-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    gap: 8px;
+    padding: 10px; }
+    header .caja-icon :hover {
+      width: 25px; }
+  header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: none;
+    width: 290px;
+    padding: 10px; }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: none; }
+    header .navbar ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 25px; }
+      header .navbar ul li {
+        display: flex; }
+        header .navbar ul li a {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          text-decoration: none;
+          color: black;
+          font-size: 18px; }
+        header .navbar ul li :hover {
+          color: gray;
+          font-size: 20px; }
