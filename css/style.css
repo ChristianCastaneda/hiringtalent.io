@@ -9,28 +9,30 @@ header {
   justify-content: none;
   align-items: none;
   gap: none;
-  background-image: url(../assets/img/rh.png); }
+  background-image: url(../assets/img/header.png);
+  background-position: top; }
   header .caja-icon {
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: start;
     gap: 8px;
-    padding: 10px; }
+    padding: 50px; }
     header .caja-icon :hover {
       width: 25px; }
   header .logo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
     align-items: center;
     gap: none;
-    width: 290px;
-    padding: 10px; }
+    width: 500px;
+    height: 100px;
+    padding-left: 40px; }
   header .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
     gap: none; }
     header .navbar ul {
@@ -44,8 +46,10 @@ header {
         header .navbar ul li a {
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           text-decoration: none;
-          color: black;
-          font-size: 18px; }
+          color: #fff;
+          font-size: 18px;
+          padding-top: 56px;
+          text-shadow: 1px -1px black; }
         header .navbar ul li :hover {
           color: gray;
           font-size: 20px; }

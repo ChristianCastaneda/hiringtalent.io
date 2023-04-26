@@ -1,20 +1,22 @@
 header{
     @include flex(column,none,none,none);
-    background-image: url(../assets/img/rh.png);
+    background-image: url(../assets/img/header.png);
+    background-position: top;
     .caja-icon{
         @include flex(row,end,start,8px);
-        padding: 10px;
+        padding: 50px;
         :hover{
             width: 25px;
         }
     }
     .logo{
-        @include flex(column,start,center,none);
-        width: 290px;
-        padding: 10px
+        @include flex(row,start,center,none);
+        width: 500px;
+        height: 100px;
+        padding-left: 40px;
     }
     .navbar{
-        @include flex(column,end,center,none);
+        @include flex(column,start,center,none);
         ul{
             @include flex(row,center,center,25px);
             li{
@@ -22,8 +24,10 @@ header{
                 a{
                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                     text-decoration: none;
-                    color: black;
+                    color: #fff;
                     font-size: 18px;
+                    padding-top: 56px;
+                    text-shadow: 1px -1px black;
                 }
                     :hover{
                         color: gray;
